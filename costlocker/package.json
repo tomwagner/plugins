@@ -1,0 +1,23 @@
+{
+  "name": "costlocker",
+  "version": "1.0.0",
+  "description": "Costlocker plugin for Franz",
+  "main": "index.js",
+  "author": "Tom Wagner <tomas.wagner@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://new.costlocker.com/sign/",
+    "serviceName": "Costlocker",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
